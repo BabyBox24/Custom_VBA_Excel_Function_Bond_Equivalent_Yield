@@ -1,0 +1,6 @@
+Function BEY(PV As Double, price As Double, DTM As Double) As Double
+    ' Calculate # days to maturity
+    
+    ' Calculate yield
+    BEY = ((PV - price) / price) * (365 / DTM)
+End Function
